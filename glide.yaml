@@ -1,0 +1,10 @@
+package: github.com/coreos/kube-namespace-cni
+import:
+- package: github.com/Sirupsen/logrus
+  version: ~0.10.0
+- package: github.com/containernetworking/cni
+  version: master
+  subpackages:
+  - pkg/invoke
+  - pkg/skel
+  - pkg/version

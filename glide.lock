@@ -1,0 +1,17 @@
+hash: 9f832bbdf64df9fe9787b78c1244b818969b28066ca12970130ce029513704d6
+updated: 2016-09-23T16:01:16.504363607-04:00
+imports:
+- name: github.com/containernetworking/cni
+  version: a29fc24f113ec11328edabaf883f9a8777a39ff2
+  subpackages:
+  - pkg/invoke
+  - pkg/skel
+  - pkg/types
+  - pkg/version
+- name: github.com/Sirupsen/logrus
+  version: 4b6ea7319e214d98c938f12692336f7ca9348d6b
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+testImports: []
