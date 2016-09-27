@@ -1,5 +1,5 @@
 hash: 9f832bbdf64df9fe9787b78c1244b818969b28066ca12970130ce029513704d6
-updated: 2016-09-23T16:01:16.504363607-04:00
+updated: 2016-09-27T11:53:34.925833123-04:00
 imports:
 - name: github.com/containernetworking/cni
   version: a29fc24f113ec11328edabaf883f9a8777a39ff2
@@ -14,4 +14,16 @@ imports:
   version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
   subpackages:
   - unix
-testImports: []
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 976c720a22c8eb4eb6a0b4348ad85ad12491a506
+  subpackages:
+  - assert
