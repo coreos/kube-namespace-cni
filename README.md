@@ -5,3 +5,5 @@ namespaces to CNI network configurations, with an optional default,
 and delegates to other CNI plugins to set up networking.  You might
 use this to place pods in a particular namespace onto an isolated
 network.
+
+There is an example configuration in `example.json`.
